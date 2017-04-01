@@ -475,6 +475,12 @@ section h3.section-subheading {
     z-index: 0;
 }
 
+@media only screen and (max-width: 767px) { 
+  #portfolio .portfolio-item .portfolio-caption p { 
+    display: none; 
+  } 
+}
+
 @media(min-width:767px) {
     #portfolio .portfolio-item {
         margin: 0 0 30px;

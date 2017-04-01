@@ -1,3 +1,33 @@
+:root {
+    --col-navbar: #222;
+    --col-back: #f7f7f7;
+    --col-back1: #FFD68C;
+    --col-back2: #57CDFF;
+    --col-dark: #57CDFF;
+    --col-dark1: #FFD68C;
+    --col-light: #FFD68C;
+    --col-light1: #57CDFF;
+    --col-light2: #CEFE7A;
+    --col-highl: #FFD68C;
+    --col-highl1: #FF2900;
+    --col-button: #fed136;
+    --col-button-brd: #fed136;
+    --col-button-act: red;
+    --col-button1: magenta;
+    --col-button1-brd: maroon;
+    --col-button1-act: magenta;
+    --col-button-highl: #57CDFF;
+    --col-button-highl-brd: #57CDFF;
+    --col-button-highl-act: #FFD68C;
+    /*text colors*/
+    --col-txt-light: #fff;
+    --col-txt-dark: #222;
+    --col-txt-highl: #57CDFF;
+    --col-txt-highl1: #222;
+    --col-txt-link: #57CDFF;
+    --col-txt-muted: #000;
+}
+
 .container-paged {
     min-width: auto;
     min-height: 100vh;
