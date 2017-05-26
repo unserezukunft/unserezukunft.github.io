@@ -484,20 +484,31 @@ section#project {
 }
 
 .mc-field-group { 
-    display: inline-block; 
+    text-align: center;
 } 
+
+.email_capture--wrapper {
+    padding-top: 1em;
+    margin: auto;
+    width: 66%;
+}
 
 #mce-EMAIL { 
     font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-    font-size: 2em; 
+    font-size: 1.8em; 
     color: #343434; 
     background-color: var(--col-back); 
     display: inline-block; 
-    margin-bottom: 2em; 
+    margin-bottom: 1.3em; 
+    height: 2em;
 }
 
 .clear { 
     display: inline-block; 
+}
+
+.padding-top {
+    padding-top: 3em;
 }
 
 :-webkit-input-placeholder { color: #ABB0B2 ; } /* WebKit browsers */ 
